@@ -6,10 +6,12 @@ var goodbye=("University of Texas")
 console.log("University of Texas".length)
 console.log("University of Texas".toLowerCase())
 
-function hello(firstName) {
-  var joint= "Hello," + ' ' + firstName;
+function hello(name) {
+  var joint= "Hello," + ' ' + name;
   return joint;
 }
+var greeting = hello(name);
+console.log(greeting);
 
 var what = hello('Emily');
 console.log(what);
