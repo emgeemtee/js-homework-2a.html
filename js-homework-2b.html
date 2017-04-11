@@ -1,4 +1,7 @@
 <script>
+var name = prompt("What is your name?");
+console.log(name)
+
 function scores(homeScore, awayScore) {
   if (homeScore > awayScore){
     console.log("The home team won.")
@@ -16,4 +19,29 @@ console.log(game2);
 var game3 = scores(5,5)
 console.log(game3);
 
+function comeon(name) {
+  if (name=='Armando'){
+    console.log("Hello," + ' ' + "Group" + ' ' + "Member")
+  }
+   else if (name=='Emily'){
+    console.log("Hello," + ' ' + "Group" + ' ' + "Member")
+  }
+  else if (name=='Andrew'){
+    console.log("Hello," + ' ' + "Teacher")
+  } else {
+    console.log("Hello!")
+  }
+}
+
+var greeting1 = comeon('Armando')
+console.log(greeting1);
+var greeting2 = comeon('Emily')
+console.log(greeting2);
+var greeting3 = comeon('Andrew')
+console.log(greeting3);
+var greeting4 = comeon('Peggy')
+console.log(greeting4);
+
+var greeting5 = comeon(name)
+console.log(greeting5);
 </script>
