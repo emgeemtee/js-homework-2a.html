@@ -2,6 +2,8 @@
 function scores(homeScore, awayScore) {
   if (homeScore > awayScore){
     console.log("The home team won.")
+  } else if (homeScore == awayScore) {
+    console.log("The game tied.")
   } else {
     console.log("The away team won.")
   }
@@ -11,5 +13,7 @@ var game1 = scores(13,6)
 console.log(game1);
 var game2 = scores(90,6000)
 console.log(game2);
+var game3 = scores(5,5)
+console.log(game3);
 
 </script>
